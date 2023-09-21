@@ -1,0 +1,776 @@
+﻿CountryName,Year,SuicideRate,GDP_PerCapita,Continent
+Albania,2000,5.5,1126.683318,Europe
+Algeria,2000,4.1,1765.022577,Africa
+Angola,2000,7.9,556.8363181,Africa
+Antigua and Barbuda,2000,2,10920.84269,North America
+Argentina,2000,9.5,7708.100996,South America
+Armenia,2000,3.3,622.7421391,Europe
+Australia,2000,13.2,21679.24784,Oceania
+Austria,2000,20,24564.45829,Europe
+Azerbaijan,2000,2.2,655.0974326,Europe
+Bahrain,2000,6.7,13636.40824,Asia
+Bangladesh,2000,6.7,418.0689683,Asia
+Barbados,2000,2.1,11496.6024,North America
+Belarus,2000,43.1,1276.288034,Europe
+Belgium,2000,22.7,23207.40591,Europe
+Belize,2000,5.5,3364.423711,North America
+Benin,2000,9.5,374.1923942,Africa
+Bhutan,2000,12.4,743.0501339,Asia
+Bosnia and Herzegovina,2000,10.7,1467.776477,Europe
+Botswana,2000,11.8,3522.308678,Africa
+Brazil,2000,4.8,3749.75325,South America
+Brunei Darussalam,2000,2.8,18012.55626,Asia
+Bulgaria,2000,18.5,1609.882452,Europe
+Burkina Faso,2000,8.2,226.4759814,Africa
+Burundi,2000,7.1,136.4639708,Africa
+Cabo Verde,2000,9.4,1259.323656,Africa
+Cambodia,2000,5.6,302.5771636,Asia
+Cameroon,2000,13.3,649.9918454,Africa
+Canada,2000,13,24190.24962,North America
+Central African Republic,2000,8.8,251.2068774,Africa
+Chad,2000,8,165.7629866,Africa
+Chile,2000,10.9,5074.901624,South America
+China,2000,13.2,959.3724836,Asia
+Colombia,2000,7.6,2520.480898,South America
+Comoros,2000,5.1,645.8186908,Africa
+Costa Rica,2000,7.3,3772.870012,North America
+Croatia,2000,21.3,4873.053306,Europe
+Cuba,2000,17.4,2747.098575,North America
+Cyprus,2000,2.2,14388.3467,Europe
+Denmark,2000,16,30743.54768,Europe
+Djibouti,2000,5.8,768.1760767,Africa
+Dominican Republic,2000,9.1,2869.105861,North America
+Ecuador,2000,6.1,1445.279324,South America
+El Salvador,2000,13.4,2001.538009,North America
+Equatorial Guinea,2000,15.5,1725.554738,Africa
+Estonia,2000,29.5,4070.032827,Europe
+Eswatini,2000,11.6,1728.70534,Africa
+Ethiopia,2000,8,124.4608003,Africa
+Fiji,2000,4.3,2076.568784,Oceania
+Finland,2000,24.6,24253.25042,Europe
+France,2000,22.3,22364.02939,Europe
+Gabon,2000,6.7,4125.716664,Africa
+Georgia,2000,6,749.8961143,Europe
+Germany,2000,14.7,23718.7467,Europe
+Ghana,2000,4,258.4709595,Africa
+Greece,2000,3.4,12042.95373,Europe
+Grenada,2000,1.9,5057.173965,North America
+Guatemala,2000,3.2,1655.58773,North America
+Guinea,2000,6.3,363.482479,Africa
+Guinea-Bissau,2000,5,308.1441193,Africa
+Guyana,2000,23.4,954.4041525,South America
+Haiti,2000,8.7,467.1475588,North America
+Honduras,2000,2.3,1080.462129,North America
+Hungary,2000,32.5,4633.312923,Europe
+Iceland,2000,16.2,32018.06325,Europe
+India,2000,17.4,443.314204,Asia
+Indonesia,2000,3.9,780.190201,Asia
+Iraq,2000,2.7,,Asia
+Ireland,2000,12.4,26241.36461,Europe
+Israel,2000,7.5,21027.78173,Asia
+Italy,2000,7.8,20051.24215,Europe
+Jamaica,2000,2.3,3384.694861,North America
+Japan,2000,24.7,38532.04088,Asia
+Jordan,2000,3.4,1651.622443,Asia
+Kazakhstan,2000,34,1229.000958,Asia
+Kenya,2000,4.4,397.4826588,Africa
+Kiribati,2000,13.7,796.8881748,Oceania
+Kuwait,2000,2,18439.90039,Asia
+Latvia,2000,34.7,3352.731296,Europe
+Lebanon,2000,3,4491.637259,Asia
+Lesotho,2000,18,436.488352,Africa
+Liberia,2000,5.7,306.8328947,Africa
+Libya,2000,5.3,7142.774452,Africa
+Lithuania,2000,50.7,3297.354701,Europe
+Luxembourg,2000,16.8,48735.99549,Europe
+Madagascar,2000,4.7,245.9390659,Africa
+Malawi,2000,6.2,156.3857186,Africa
+Malaysia,2000,5.3,4043.662051,Asia
+Maldives,2000,4.4,2234.579866,Asia
+Mali,2000,5.5,269.8711377,Africa
+Malta,2000,6.5,11039.05651,Europe
+Mauritania,2000,3.4,491.8427611,Africa
+Mauritius,2000,11.1,3929.075493,Africa
+Mexico,2000,3.6,7157.8145,North America
+Mongolia,2000,17.9,474.2168965,Asia
+Montenegro,2000,10.4,1627.072633,Europe
+Morocco,2000,6.9,1334.943051,Africa
+Mozambique,2000,8.8,283.2254824,Africa
+Myanmar,2000,7.3,190.6062319,Asia
+Namibia,2000,10.9,2136.440243,Africa
+Nepal,2000,15.4,229.4902871,Asia
+Netherlands,2000,9.8,26149.41108,Europe
+New Zealand,2000,12.9,13641.10272,Oceania
+Nicaragua,2000,17.2,1007.501429,North America
+Niger,2000,4.6,158.7049748,Africa
+Nigeria,2000,10.2,567.930736,Africa
+Norway,2000,13.3,38146.71539,Europe
+Oman,2000,4.3,8601.25417,Asia
+Pakistan,2000,3.4,519.5343268,Asia
+Panama,2000,6,4060.324493,North America
+Papua New Guinea,2000,7.1,602.1869023,Oceania
+Paraguay,2000,10.1,1663.605252,South America
+Peru,2000,5.1,1955.588006,South America
+Philippines,2000,2.5,1038.90854,Asia
+Poland,2000,16.9,4492.739632,Europe
+Portugal,2000,7.5,11502.39681,Europe
+Qatar,2000,3.4,29976.11704,Asia
+Romania,2000,13.2,1659.90764,Europe
+Russia,2000,52.6,1771.59783,Europe
+Rwanda,2000,15.6,228.6377096,Africa
+Samoa,2000,8.3,1542.066736,Oceania
+Sao Tome and Principe,2000,2,,Africa
+Saudi Arabia,2000,2.8,9171.330145,Asia
+Senegal,2000,7.7,604.654066,Africa
+Serbia,2000,21,870.1363145,Europe
+Seychelles,2000,8.7,7578.851053,Africa
+Sierra Leone,2000,11.1,138.6986922,Africa
+Singapore,2000,12.4,23852.32703,Asia
+Slovenia,2000,32.4,10227.73677,Europe
+Solomon Islands,2000,11.2,1054.388246,Oceania
+South Africa,2000,11.6,3032.427138,Africa
+Spain,2000,8.6,14676.70609,Europe
+Sri Lanka,2000,28.8,869.6965166,Asia
+Sudan,2000,7.9,366.1728076,Africa
+Suriname,2000,23.5,2012.260287,South America
+Sweden,2000,15.6,29323.20776,Europe
+Switzerland,2000,21.8,37868.32306,Europe
+Tajikistan,2000,3,138.4288795,Asia
+Thailand,2000,16.2,2007.736363,Asia
+Timor-Leste,2000,9.3,497.1314157,Asia
+Togo,2000,9.6,302.2063943,Africa
+Tonga,2000,3.6,2065.502661,Oceania
+Trinidad and Tobago,2000,14.9,6435.164683,North America
+Tunisia,2000,3.5,2211.826817,Africa
+Turkey,2000,7.2,4316.548908,Asia
+Turkmenistan,2000,9.1,643.174726,Asia
+Uganda,2000,11.1,261.8689977,Africa
+Ukraine,2000,36.9,635.7089635,Europe
+United Arab Emirates,2000,3.2,33291.41937,Asia
+United Kingdom,2000,9.1,27987.75116,Europe
+United States of America,2000,11.3,36334.90878,North America
+Uruguay,2000,17.4,6875.021328,South America
+Uzbekistan,2000,7.6,558.2268024,Asia
+Vanuatu,2000,7.3,1470.572265,Oceania
+Zambia,2000,8.1,345.6895544,Africa
+Zimbabwe,2000,12.9,563.0577411,Africa
+Albania,2005,6.7,2673.787283,Europe
+Algeria,2005,3.8,3113.094651,Africa
+Angola,2005,7.2,1902.422346,Africa
+Antigua and Barbuda,2005,1.2,12547.61304,North America
+Argentina,2005,9,5109.851325,South America
+Armenia,2005,4.4,1643.753029,Europe
+Australia,2005,12.3,33999.24286,Oceania
+Austria,2005,17.3,38403.13388,Europe
+Azerbaijan,2005,3.2,1578.40239,Europe
+Bahrain,2005,7,17959.25933,Asia
+Bangladesh,2005,6.3,499.4619402,Asia
+Barbados,2005,3.7,14104.14623,North America
+Belarus,2005,45.1,3125.810535,Europe
+Belgium,2005,21.2,36967.25918,Europe
+Belize,2005,4.9,3926.013742,North America
+Benin,2005,9.7,601.799977,Africa
+Bhutan,2005,12.2,1262.247445,Asia
+Bosnia and Herzegovina,2005,9.3,2980.602109,Europe
+Botswana,2005,12.6,5520.12472,Africa
+Brazil,2005,5.5,4790.437088,South America
+Brunei Darussalam,2005,3.3,26105.27903,Asia
+Bulgaria,2005,13.4,3869.529455,Europe
+Burkina Faso,2005,7.6,406.9988071,Africa
+Burundi,2005,8.4,151.6814634,Africa
+Cabo Verde,2005,10.1,2099.157484,Africa
+Cambodia,2005,5.9,474.1112278,Asia
+Cameroon,2005,11.9,1011.880073,Africa
+Canada,2005,13.2,36266.18712,North America
+Central African Republic,2005,8.8,331.1629242,Africa
+Chad,2005,8.5,658.3049578,Africa
+Chile,2005,10.6,7598.525121,South America
+China,2005,11.7,1753.417829,Asia
+Colombia,2005,6.7,3404.190199,South America
+Comoros,2005,6.5,1068.600321,Africa
+Costa Rica,2005,7.9,4654.824822,North America
+Croatia,2005,20.2,10521.03386,Europe
+Cuba,2005,13,3786.664793,North America
+Cyprus,2005,2.6,24959.26591,Europe
+Denmark,2005,16.2,48799.8256,Europe
+Djibouti,2005,5.9,904.7297489,Africa
+Dominican Republic,2005,8.2,3970.32284,North America
+Ecuador,2005,8.9,3002.136867,South America
+El Salvador,2005,9.9,2428.569512,North America
+Equatorial Guinea,2005,13.7,10963.28936,Africa
+Estonia,2005,22.5,10338.31322,Europe
+Eswatini,2005,12,3083.826171,Africa
+Ethiopia,2005,7.9,162.4327265,Africa
+Fiji,2005,3.5,3659.579329,Oceania
+Finland,2005,20.4,38969.17163,Europe
+France,2005,21.1,34760.18777,Europe
+Gabon,2005,6.1,6888.627147,Africa
+Georgia,2005,5,1642.775074,Europe
+Germany,2005,13.6,34696.62092,Europe
+Ghana,2005,4.3,491.9463779,Africa
+Greece,2005,3.5,22551.73574,Europe
+Grenada,2005,2.7,6644.02496,North America
+Guatemala,2005,3.2,2077.83438,North America
+Guinea,2005,6.8,322.4156816,Africa
+Guinea-Bissau,2005,4.4,436.3020197,Africa
+Guyana,2005,24.4,1105.496454,South America
+Haiti,2005,9.5,468.7572696,North America
+Honduras,2005,2.5,1296.694822,North America
+Hungary,2005,26.7,11205.97134,Europe
+Iceland,2005,12.2,56658.58959,Europe
+India,2005,17.6,714.8610803,Asia
+Indonesia,2005,3.8,1263.287321,Asia
+Iraq,2005,2.5,1855.522004,Asia
+Ireland,2005,11.9,50878.22361,Europe
+Israel,2005,7.6,20549.67114,Asia
+Italy,2005,7,31959.26295,Europe
+Jamaica,2005,1.9,4089.198442,North America
+Japan,2005,24.9,37217.64873,Asia
+Jordan,2005,3.1,2183.396157,Asia
+Kazakhstan,2005,39.4,3771.278957,Asia
+Kenya,2005,3.9,511.6164222,Africa
+Kiribati,2005,13.9,1214.556667,Oceania
+Kuwait,2005,2.3,35590.70407,Asia
+Latvia,2005,26.7,7558.742006,Europe
+Lebanon,2005,3.1,4573.536073,Asia
+Lesotho,2005,18.6,842.8130532,Africa
+Liberia,2005,6.8,294.8930368,Africa
+Libya,2005,5.6,8163.010778,Africa
+Lithuania,2005,43.9,7863.162009,Europe
+Luxembourg,2005,14.3,80289.69641,Europe
+Madagascar,2005,4.5,274.8197023,Africa
+Malawi,2005,4.5,289.5551689,Africa
+Malaysia,2005,5.4,5587.02565,Asia
+Maldives,2005,3.3,3639.966576,Asia
+Mali,2005,4.9,488.8281374,Africa
+Malta,2005,5.6,15835.34667,Europe
+Mauritania,2005,3.5,722.3230795,Africa
+Mauritius,2005,8.8,5282.906022,Africa
+Mexico,2005,4.3,8277.671251,North America
+Mongolia,2005,17.1,998.8313648,Asia
+Montenegro,2005,11.4,3674.617924,Europe
+Morocco,2005,5.3,2018.025743,Africa
+Mozambique,2005,6.7,376.8846717,Africa
+Myanmar,2005,7.7,244.8823499,Asia
+Namibia,2005,10.4,3674.002201,Africa
+Nepal,2005,12.5,315.80563,Asia
+Netherlands,2005,9.9,41979.05585,Europe
+New Zealand,2005,13.3,27751.06547,Oceania
+Nicaragua,2005,14.4,1162.290113,North America
+Niger,2005,4.9,249.9279298,Africa
+Nigeria,2005,9.6,1268.383443,Africa
+Norway,2005,12.7,66775.3944,Europe
+Oman,2005,3.4,12377.06807,Asia
+Pakistan,2005,3.5,683.0902351,Asia
+Panama,2005,6.3,4916.914994,North America
+Papua New Guinea,2005,5.8,749.1863962,Oceania
+Paraguay,2005,10.1,1843.633791,South America
+Peru,2005,4.6,2729.498682,South America
+Philippines,2005,2.6,1193.977291,Asia
+Poland,2005,17.7,8021.003655,Europe
+Portugal,2005,11.1,18784.9485,Europe
+Qatar,2005,3.2,51455.59419,Asia
+Romania,2005,12.5,4617.929016,Europe
+Russia,2005,51.6,5323.473877,Europe
+Rwanda,2005,10.9,303.7407156,Africa
+Samoa,2005,6.5,2574.176629,Oceania
+Sao Tome and Principe,2005,1.8,866.5074511,Africa
+Saudi Arabia,2005,3,13791.44629,Asia
+Senegal,2005,8.1,993.9320411,Africa
+Serbia,2005,18.8,3720.479155,Europe
+Seychelles,2005,9.1,11092.51074,Africa
+Sierra Leone,2005,10.4,292.3493252,Africa
+Singapore,2005,11.6,29961.26328,Asia
+Slovenia,2005,27.1,18169.18091,Europe
+Solomon Islands,2005,7.6,880.8129914,Oceania
+South Africa,2005,11.8,5383.632556,Africa
+Spain,2005,8.1,26510.71745,Europe
+Sri Lanka,2005,23.1,1248.698185,Asia
+Sudan,2005,8.4,689.209557,Africa
+Suriname,2005,26.5,3590.626616,South America
+Sweden,2005,16.4,43134.71673,Europe
+Switzerland,2005,20.8,54952.67372,Europe
+Tajikistan,2005,2.9,340.5830327,Asia
+Thailand,2005,12.7,2894.061896,Asia
+Timor-Leste,2005,6.2,1822.574955,Asia
+Togo,2005,9.9,406.4009505,Africa
+Tonga,2005,3.4,2598.2472,Oceania
+Trinidad and Tobago,2005,12.3,12327.23317,North America
+Tunisia,2005,3.6,3193.206569,Africa
+Turkey,2005,7.6,7384.251628,Asia
+Turkmenistan,2005,11.7,1704.417531,Asia
+Uganda,2005,10.5,325.5903736,Africa
+Ukraine,2005,34.5,1826.932206,Europe
+United Arab Emirates,2005,3.1,39365.33592,Asia
+United Kingdom,2005,8.2,41803.89138,Europe
+United States of America,2005,11.9,44114.74778,North America
+Uruguay,2005,15.3,5226.937806,South America
+Uzbekistan,2005,5.8,546.7768502,Asia
+Vanuatu,2005,5.7,1887.226576,Oceania
+Zambia,2005,6.5,702.7409406,Africa
+Zimbabwe,2005,13.9,476.5553236,Africa
+Albania,2010,7.8,4094.358816,Europe
+Algeria,2010,3.3,4480.785777,Africa
+Angola,2010,5.7,3587.883798,Africa
+Antigua and Barbuda,2010,0.3,13092.07382,North America
+Argentina,2010,8.7,10385.96443,South America
+Armenia,2010,6,3218.372707,Europe
+Australia,2010,12.5,52022.1256,Oceania
+Austria,2010,16,46858.04327,Europe
+Azerbaijan,2010,3.1,5842.805784,Europe
+Bahrain,2010,5.2,20722.13729,Asia
+Bangladesh,2010,6.4,781.1535936,Asia
+Barbados,2010,2.1,16056.01653,North America
+Belarus,2010,38.2,6181.399916,Europe
+Belgium,2010,21.3,44380.17663,Europe
+Belize,2010,4.9,4331.434517,North America
+Benin,2010,9.6,757.6959074,Africa
+Bhutan,2010,11.1,2312.860096,Asia
+Bosnia and Herzegovina,2010,8,4635.517779,Europe
+Botswana,2010,11.1,6434.815657,Africa
+Brazil,2010,5.7,11286.24302,South America
+Brunei Darussalam,2010,3.7,35269.55311,Asia
+Bulgaria,2010,12.5,6843.26695,Europe
+Burkina Faso,2010,7.5,575.4464527,Africa
+Burundi,2010,9,234.2356469,Africa
+Cabo Verde,2010,11.1,3378.25486,Africa
+Cambodia,2010,5.4,785.5022829,Asia
+Cameroon,2010,11.7,1285.261726,Africa
+Canada,2010,13,47450.31847,North America
+Central African Republic,2010,9.5,487.9453833,Africa
+Chad,2010,8.7,891.6988174,Africa
+Chile,2010,12.2,12808.03459,South America
+China,2010,10.9,4550.453596,Asia
+Colombia,2010,7.2,6326.549469,South America
+Comoros,2010,6.6,1315.214806,Africa
+Costa Rica,2010,8.6,8141.913599,North America
+Croatia,2010,18.6,13937.14227,Europe
+Cuba,2010,14.4,5730.354775,North America
+Cyprus,2010,5.7,30818.47993,Europe
+Denmark,2010,12.7,58041.39844,Europe
+Djibouti,2010,5.2,1343.26873,Africa
+Dominican Republic,2010,8,5568.046676,North America
+Ecuador,2010,8.5,4633.590358,South America
+El Salvador,2010,10.8,2983.229771,North America
+Equatorial Guinea,2010,16.7,17272.00977,Africa
+Estonia,2010,18.3,14638.60482,Europe
+Eswatini,2010,11.9,4168.505062,Africa
+Ethiopia,2010,7.3,341.5541149,Africa
+Fiji,2010,4.8,3652.527437,Oceania
+Finland,2010,18.9,46202.41516,Europe
+France,2010,20.2,40638.334,Europe
+Gabon,2010,6.9,8840.730664,Africa
+Georgia,2010,6.9,3073.524753,Europe
+Germany,2010,13.7,41785.55691,Europe
+Ghana,2010,4.7,1298.436952,Africa
+Greece,2010,3.3,26917.75898,Europe
+Grenada,2010,0.9,7257.756622,North America
+Guatemala,2010,2.9,2825.519029,North America
+Guinea,2010,6.6,672.4244026,Africa
+Guinea-Bissau,2010,4.2,557.6321326,Africa
+Guyana,2010,26.8,3033.247725,South America
+Haiti,2010,10.2,665.6274195,North America
+Honduras,2010,2.5,1891.157395,North America
+Hungary,2010,26,13092.23376,Europe
+Iceland,2010,13.3,43024.92384,Europe
+India,2010,16.5,1357.563701,Asia
+Indonesia,2010,3.6,3122.362815,Asia
+Iraq,2010,2.8,4657.280426,Asia
+Ireland,2010,12,48715.17686,Europe
+Israel,2010,7.3,30659.12775,Asia
+Italy,2010,7.5,35849.3732,Europe
+Jamaica,2010,2,4696.841894,North America
+Japan,2010,24.4,44507.67639,Asia
+Jordan,2010,2.8,3656.453675,Asia
+Kazakhstan,2010,32.7,9070.488253,Asia
+Kenya,2010,3.1,951.6879611,Africa
+Kiribati,2010,14.5,1516.811869,Oceania
+Kuwait,2010,1.9,38577.38166,Asia
+Latvia,2010,22.7,11326.21947,Europe
+Lebanon,2010,3.2,7756.744069,Asia
+Lesotho,2010,20.1,1183.42153,Africa
+Liberia,2010,6.5,513.4456986,Africa
+Libya,2010,5.4,12064.78069,Africa
+Lithuania,2010,37.3,11984.86857,Europe
+Luxembourg,2010,12.9,104965.3061,Europe
+Madagascar,2010,4.3,412.7309341,Africa
+Malawi,2010,3.8,478.6685897,Africa
+Malaysia,2010,5.1,9040.566251,Asia
+Maldives,2010,3.2,7076.662423,Asia
+Mali,2010,4.8,709.5819646,Africa
+Malta,2010,8,21087.79469,Europe
+Mauritania,2010,3.9,1241.428756,Africa
+Mauritius,2010,8.1,8000.376432,Africa
+Mexico,2010,4.6,9271.398233,North America
+Mongolia,2010,16.6,2643.292914,Asia
+Montenegro,2010,10.4,6682.281158,Europe
+Morocco,2010,3.7,2839.925168,Africa
+Mozambique,2010,5.6,431.5154715,Africa
+Myanmar,2010,7.3,979.05163,Asia
+Namibia,2010,10.4,5324.61704,Africa
+Nepal,2010,10.5,592.4010975,Asia
+Netherlands,2010,10,50950.03434,Europe
+New Zealand,2010,13,33692.01083,Oceania
+Nicaragua,2010,12.5,1503.867544,North America
+Niger,2010,4.9,347.3430407,Africa
+Nigeria,2010,10,2292.445156,Africa
+Norway,2010,12.6,87770.26684,Europe
+Oman,2010,3.7,19281.16563,Asia
+Pakistan,2010,3.1,988.7541283,Asia
+Panama,2010,5.1,8082.028459,North America
+Papua New Guinea,2010,5.4,1949.34856,Oceania
+Paraguay,2010,9.3,4355.934939,South America
+Peru,2010,4.6,5082.354757,South America
+Philippines,2010,3.3,2124.05677,Asia
+Poland,2010,18.6,12599.53358,Europe
+Portugal,2010,13.5,22538.65408,Europe
+Qatar,2010,6.1,67403.1603,Asia
+Romania,2010,14,8209.919456,Europe
+Russia,2010,40,10674.9972,Europe
+Rwanda,2010,7.5,576.049201,Africa
+Samoa,2010,5,3458.188715,Oceania
+Sao Tome and Principe,2010,2,1094.710636,Africa
+Saudi Arabia,2010,3.4,19262.54768,Asia
+Senegal,2010,6.9,1278.977754,Africa
+Serbia,2010,15.9,5735.422857,Europe
+Seychelles,2010,9.4,10804.68447,Africa
+Sierra Leone,2010,9.2,401.8350014,Africa
+Singapore,2010,10,47236.96023,Asia
+Slovenia,2010,20.7,23437.47202,Europe
+Solomon Islands,2010,5.8,1290.398779,Oceania
+South Africa,2010,12.2,7328.593646,Africa
+Spain,2010,7,30736.62785,Europe
+Sri Lanka,2010,19.1,2799.648876,Asia
+Sudan,2010,8,1489.876911,Africa
+Suriname,2010,27,8255.796859,South America
+Sweden,2010,15.3,52132.91853,Europe
+Switzerland,2010,16.2,74605.72102,Europe
+Tajikistan,2010,2.5,749.552711,Asia
+Thailand,2010,14.3,5076.342992,Asia
+Timor-Leste,2010,5.3,3656.952175,Asia
+Togo,2010,9.5,533.508792,Africa
+Tonga,2010,3.6,3553.220614,Oceania
+Trinidad and Tobago,2010,14.5,16683.35538,North America
+Tunisia,2010,3.6,4141.976353,Africa
+Turkey,2010,8.4,10672.38925,Asia
+Turkmenistan,2010,7.6,4439.200382,Asia
+Uganda,2010,10.5,622.4988457,Africa
+Ukraine,2010,27.1,2965.142365,Europe
+United Arab Emirates,2010,3,33893.30351,Asia
+United Kingdom,2010,7.8,39079.84261,Europe
+United States of America,2010,13.2,48466.82338,North America
+Uruguay,2010,16.6,11992.01663,South America
+Uzbekistan,2010,6,1377.08214,Asia
+Vanuatu,2010,5.1,2966.857116,Oceania
+Zambia,2010,6.3,1489.45907,Africa
+Zimbabwe,2010,11.9,948.3318545,Africa
+Albania,2015,6,3952.830781,Europe
+Algeria,2015,3.2,4177.888966,Africa
+Angola,2015,5,4166.979684,Africa
+Antigua and Barbuda,2015,0.8,14526.58808,North America
+Argentina,2015,8.8,13789.06042,South America
+Armenia,2015,7,3607.296697,Europe
+Australia,2015,13.8,56748.42026,Oceania
+Austria,2015,16,44176.67174,Europe
+Azerbaijan,2015,2.7,5500.320497,Europe
+Bahrain,2015,5.9,22688.9444,Asia
+Bangladesh,2015,6.1,1248.453398,Asia
+Barbados,2015,0.7,16066.4718,North America
+Belarus,2015,26.3,5949.106307,Europe
+Belgium,2015,20.1,40441.05204,Europe
+Belize,2015,4.8,4883.179011,North America
+Benin,2015,9.9,783.9630778,Africa
+Bhutan,2015,11.6,2829.891245,Asia
+Bosnia and Herzegovina,2015,8.9,4727.277546,Europe
+Botswana,2015,9.7,6799.875234,Africa
+Brazil,2015,6.5,8814.000987,South America
+Brunei Darussalam,2015,4.5,31164.56203,Asia
+Bulgaria,2015,11.4,6993.783483,Europe
+Burkina Faso,2015,7.7,575.3144542,Africa
+Burundi,2015,8.9,305.5497728,Africa
+Cabo Verde,2015,11,3043.013984,Africa
+Cambodia,2015,5.3,1162.90492,Asia
+Cameroon,2015,12.3,1326.969277,Africa
+Canada,2015,12.5,43495.05439,North America
+Central African Republic,2015,8.1,380.4042935,Africa
+Chad,2015,8.9,775.7075235,Africa
+Chile,2015,10.9,13574.1715,South America
+China,2015,9.6,8033.388043,Asia
+Colombia,2015,8.3,6175.87603,South America
+Comoros,2015,6.8,1271.057042,Africa
+Costa Rica,2015,7.9,11299.13618,North America
+Croatia,2015,17.8,11780.13124,Europe
+Cuba,2015,13.7,7694.01192,North America
+Cyprus,2015,4.9,23217.48415,Europe
+Denmark,2015,11.9,53254.856,Europe
+Djibouti,2015,6.4,1787.4775,Africa
+Dominican Republic,2015,9.7,6691.71692,North America
+Ecuador,2015,9.6,6124.491643,South America
+El Salvador,2015,14,3705.577946,North America
+Equatorial Guinea,2015,16.5,11278.92894,Africa
+Estonia,2015,15.8,17412.44867,Europe
+Eswatini,2015,13.1,3641.408583,Africa
+Ethiopia,2015,7.2,639.3043597,Africa
+Fiji,2015,5,5390.745258,Oceania
+Finland,2015,14.4,42494.65662,Europe
+France,2015,18,36613.37522,Europe
+Gabon,2015,7.3,7381.746749,Africa
+Georgia,2015,8.1,3756.383768,Europe
+Germany,2015,13.8,41394.65816,Europe
+Ghana,2015,5.3,1766.005701,Africa
+Greece,2015,4.8,18167.77372,Europe
+Grenada,2015,1.1,9096.870646,North America
+Guatemala,2015,3.1,3923.573344,North America
+Guinea,2015,6.4,769.2560137,Africa
+Guinea-Bissau,2015,3.9,603.1585129,Africa
+Guyana,2015,29.1,4166.134826,South America
+Haiti,2015,11.7,815.7282844,North America
+Honduras,2015,2.8,2286.200039,North America
+Hungary,2015,20.3,12503.68207,Europe
+Iceland,2015,14,52428.59576,Europe
+India,2015,16.5,1605.605431,Asia
+Indonesia,2015,3.4,3331.695128,Asia
+Iraq,2015,3.1,4989.803075,Asia
+Ireland,2015,11.5,61995.42278,Europe
+Israel,2015,5,35855.27504,Asia
+Italy,2015,8,30170.5166,Europe
+Jamaica,2015,2.1,4892.897447,North America
+Japan,2015,19.4,34524.46986,Asia
+Jordan,2015,2.9,4097.411436,Asia
+Kazakhstan,2015,24.9,10510.77189,Asia
+Kenya,2015,3.1,1336.883349,Africa
+Kiribati,2015,14.5,1542.57525,Oceania
+Kuwait,2015,2.3,29869.52939,Asia
+Latvia,2015,21.6,13639.69412,Europe
+Lebanon,2015,3.3,7649.832611,Asia
+Lesotho,2015,21,1219.177853,Africa
+Liberia,2015,6.5,710.3838577,Africa
+Libya,2015,4.2,4337.919139,Africa
+Lithuania,2015,34.9,14291.90642,Europe
+Luxembourg,2015,14.7,100428.368,Europe
+Madagascar,2015,4,402.0883118,Africa
+Malawi,2015,3.6,380.5970331,Africa
+Malaysia,2015,5.4,9799.367531,Asia
+Maldives,2015,2.6,9033.390413,Asia
+Mali,2015,4.8,751.1704966,Africa
+Malta,2015,8,24046.27535,Europe
+Mauritania,2015,4.3,1194.312515,Africa
+Mauritius,2015,8.5,9260.447303,Africa
+Mexico,2015,5.6,9605.952351,North America
+Mongolia,2015,13.1,3918.579174,Asia
+Montenegro,2015,10,6514.272695,Europe
+Morocco,2015,2.9,2875.257985,Africa
+Mozambique,2015,4.9,547.2380939,Africa
+Myanmar,2015,7.6,1133.002816,Asia
+Namibia,2015,9,5032.889762,Africa
+Nepal,2015,9.1,792.5528906,Asia
+Netherlands,2015,12.5,45175.23189,Europe
+New Zealand,2015,12.1,38559.54704,Oceania
+Nicaragua,2015,12.2,2049.851415,North America
+Niger,2015,4.7,360.8533841,Africa
+Nigeria,2015,9.6,2730.430324,Africa
+Norway,2015,12.4,74521.56993,Europe
+Oman,2015,4.1,16150.88726,Asia
+Pakistan,2015,2.9,1356.667731,Asia
+Panama,2015,3.9,13630.30797,North America
+Papua New Guinea,2015,6,2679.326711,Oceania
+Paraguay,2015,9.9,5406.703857,South America
+Peru,2015,4.9,6227.586716,South America
+Philippines,2015,3.2,2867.15199,Asia
+Poland,2015,15.8,12572.32185,Europe
+Portugal,2015,13.8,19252.63495,Europe
+Qatar,2015,6.5,63039.01655,Asia
+Romania,2015,11.6,8977.498544,Europe
+Russia,2015,32.1,9313.787542,Europe
+Rwanda,2015,6.8,728.0817574,Africa
+Samoa,2015,4.5,4155.279353,Oceania
+Sao Tome and Principe,2015,2.3,1595.861423,Africa
+Saudi Arabia,2015,3.2,20627.93278,Asia
+Senegal,2015,6.2,1218.764246,Africa
+Serbia,2015,15,5585.117808,Europe
+Seychelles,2015,9.4,14745.34146,Africa
+Sierra Leone,2015,9.3,588.2284527,Africa
+Singapore,2015,9,55646.61875,Asia
+Slovenia,2015,21,20887.51964,Europe
+Solomon Islands,2015,4.9,1914.467926,Oceania
+South Africa,2015,11.8,5730.934174,Africa
+Spain,2015,8.1,25817.38661,Europe
+Sri Lanka,2015,14.8,3843.780672,Asia
+Sudan,2015,8,2486.745659,Africa
+Suriname,2015,23.8,8561.974179,South America
+Sweden,2015,15.7,50832.55271,Europe
+Switzerland,2015,17.1,82081.59712,Europe
+Tajikistan,2015,2.5,929.0958572,Asia
+Thailand,2015,14.6,5840.046948,Asia
+Timor-Leste,2015,4.6,2585.153878,Asia
+Togo,2015,9.4,570.6807371,Africa
+Tonga,2015,3.5,4320.63799,Oceania
+Trinidad and Tobago,2015,13.6,18332.49031,North America
+Tunisia,2015,3.4,3859.814436,Africa
+Turkey,2015,7.3,10948.72461,Asia
+Turkmenistan,2015,7.2,6432.680702,Asia
+Uganda,2015,9.9,709.0210386,Africa
+Ukraine,2015,23.1,2124.662666,Europe
+United Arab Emirates,2015,2.8,38663.38381,Asia
+United Kingdom,2015,8.7,44472.1517,Europe
+United States of America,2015,15,56803.47243,North America
+Uruguay,2015,19.4,15613.76427,South America
+Uzbekistan,2015,7.4,2615.025134,Asia
+Vanuatu,2015,4.5,2721.635936,Oceania
+Zambia,2015,6.1,1332.194321,Africa
+Zimbabwe,2015,10.6,1445.071062,Africa
+Albania,2020,6.3,4124.108543,Europe
+Algeria,2020,3.2,3948.811897,Africa
+Angola,2020,4.7,3506.072885,Africa
+Antigua and Barbuda,2020,0.5,15494.30547,North America
+Argentina,2020,9.2,12790.24247,South America
+Armenia,2020,6.6,3591.829276,Europe
+Australia,2020,13.2,50019.96777,Oceania
+Austria,2020,15.6,45103.32981,Europe
+Azerbaijan,2020,2.6,3880.738731,Europe
+Bahrain,2020,5.9,22619.11667,Asia
+Bangladesh,2020,5.9,1401.620628,Asia
+Barbados,2020,0.8,15847.14272,North America
+Belarus,2020,26.2,5022.626643,Europe
+Belgium,2020,20.7,41449.09736,Europe
+Belize,2020,4.7,4904.034338,North America
+Benin,2020,9.9,788.5491965,Africa
+Bhutan,2020,11.4,3012.961401,Asia
+Bosnia and Herzegovina,2020,8.8,4994.68314,Europe
+Botswana,2020,9.3,7243.856017,Africa
+Brazil,2020,6.5,8712.887044,South America
+Brunei Darussalam,2020,4.6,27157.34623,Asia
+Bulgaria,2020,11.5,7469.455638,Europe
+Burkina Faso,2020,7.7,583.8326203,Africa
+Burundi,2020,9.1,282.1496815,Africa
+Cabo Verde,2020,11.3,3130.963385,Africa
+Cambodia,2020,5.3,1269.591257,Asia
+Cameroon,2020,12.2,1363.403851,Africa
+Canada,2020,12.5,42279.90082,North America
+Central African Republic,2020,7.7,406.5319611,Africa
+Chad,2020,8.8,692.9785958,Africa
+Chile,2020,10.6,13748.0884,South America
+China,2020,9.7,8078.790474,Asia
+Colombia,2020,7.2,5871.223524,South America
+Comoros,2020,6.8,1287.420965,Africa
+Costa Rica,2020,7.9,11666.45661,North America
+Croatia,2020,16.5,12366.82154,Europe
+Cuba,2020,13.9,8060.795886,North America
+Cyprus,2020,5.3,24019.13787,Europe
+Denmark,2020,12.8,54467.10452,Europe
+Djibouti,2020,6.7,1898.87599,Africa
+Dominican Republic,2020,9.9,6957.564507,North America
+Ecuador,2020,7.1,6060.093329,South America
+El Salvador,2020,13.7,3800.122181,North America
+Equatorial Guinea,2020,16.4,9244.051798,Africa
+Estonia,2020,17.8,18228.05825,Europe
+Eswatini,2020,13.3,3426.826597,Africa
+Ethiopia,2020,7.2,716.8800387,Africa
+Fiji,2020,5,5647.347365,Oceania
+Finland,2020,15.9,43493.41934,Europe
+France,2020,17.7,36962.22229,Europe
+Gabon,2020,7.1,6979.709196,Africa
+Georgia,2020,8.2,3857.281728,Europe
+Germany,2020,13.6,42443.46507,Europe
+Ghana,2020,5.4,1931.38947,Africa
+Greece,2020,5,18116.45962,Europe
+Grenada,2020,1.7,9628.347487,North America
+Guatemala,2020,2.7,4140.590064,North America
+Guinea,2020,6.3,733.0207588,Africa
+Guinea-Bissau,2020,4,661.0076549,Africa
+Guyana,2020,29.2,4542.622067,South America
+Haiti,2020,11.7,735.7551202,North America
+Honduras,2020,2.9,2326.297027,North America
+Hungary,2020,19.1,12839.58454,Europe
+Iceland,2020,14,61757.94931,Europe
+India,2020,16.3,1729.268021,Asia
+Indonesia,2020,3.4,3562.845756,Asia
+Iraq,2020,3,4649.468115,Asia
+Ireland,2020,11.5,63197.08237,Europe
+Israel,2020,5.4,37371.62691,Asia
+Italy,2020,8.2,30830.92266,Europe
+Jamaica,2020,2.2,4842.045011,North America
+Japan,2020,18.5,38794.33094,Asia
+Jordan,2020,2.9,4109.574819,Asia
+Kazakhstan,2020,22.5,7714.841844,Asia
+Kenya,2020,3.2,1410.527571,Africa
+Kiribati,2020,14.4,1584.807446,Oceania
+Kuwait,2020,2.3,27653.1644,Asia
+Latvia,2020,21.2,14133.68295,Europe
+Lebanon,2020,3.3,7634.946544,Asia
+Lesotho,2020,21.2,1119.719758,Africa
+Liberia,2020,6.8,714.6233922,Africa
+Libya,2020,5.2,4038.970683,Africa
+Lithuania,2020,31.9,14982.53305,Europe
+Luxembourg,2020,13.5,101305.5277,Europe
+Madagascar,2020,3.9,400.0362751,Africa
+Malawi,2020,3.7,315.7773264,Africa
+Malaysia,2020,5.5,9671.024717,Asia
+Maldives,2020,2.3,9282.723553,Asia
+Mali,2020,4.8,779.874933,Africa
+Malta,2020,7.5,25128.93738,Europe
+Mauritania,2020,4.4,1135.558646,Africa
+Mauritius,2020,7.8,9681.618567,Africa
+Mexico,2020,5.1,8739.142471,North America
+Mongolia,2020,13,3660.150746,Asia
+Montenegro,2020,10.3,7028.936577,Europe
+Morocco,2020,2.9,2897.66344,Africa
+Mozambique,2020,4.9,391.5528948,Africa
+Myanmar,2020,7.8,1192.495338,Asia
+Namibia,2020,8.7,4786.235303,Africa
+Nepal,2020,8.8,777.1475955,Asia
+Netherlands,2020,12.6,46007.85292,Europe
+New Zealand,2020,12.1,40026.8522,Oceania
+Nicaragua,2020,12.2,2107.574238,North America
+Niger,2020,4.6,362.1311323,Africa
+Nigeria,2020,9.5,2175.99967,Africa
+Norway,2020,12.2,70941.52527,Europe
+Oman,2020,3.9,14721.64733,Asia
+Pakistan,2020,2.9,1368.454326,Asia
+Panama,2020,4.3,14356.32405,North America
+Papua New Guinea,2020,6,2509.629007,Oceania
+Paraguay,2020,9.5,5319.410218,South America
+Peru,2020,4.9,6205.3709,South America
+Philippines,2020,3.2,2941.21204,Asia
+Poland,2020,16.2,12431.57542,Europe
+Portugal,2020,14,19977.39849,Europe
+Qatar,2020,6.6,57163.06099,Asia
+Romania,2020,10.4,9567.097782,Europe
+Russia,2020,31,8745.375116,Europe
+Rwanda,2020,6.7,726.353049,Africa
+Samoa,2020,4.4,4043.694,Oceania
+Sao Tome and Principe,2020,2.3,1710.133948,Africa
+Saudi Arabia,2020,3.2,19879.29753,Asia
+Senegal,2020,6,1269.040407,Africa
+Serbia,2020,15.6,5756.381194,Europe
+Seychelles,2020,9.3,15077.83902,Africa
+Sierra Leone,2020,9.7,501.4157129,Africa
+Singapore,2020,9.9,56724.17039,Asia
+Slovenia,2020,18.6,21617.57985,Europe
+Solomon Islands,2020,4.7,1990.031497,Oceania
+South Africa,2020,11.6,5272.627749,Africa
+Spain,2020,8.7,26622.29914,Europe
+Sri Lanka,2020,14.6,3886.291502,Asia
+Sudan,2020,8.1,2398.10188,Africa
+Suriname,2020,22.8,5606.712075,South America
+Sweden,2020,14.8,51617.54035,Europe
+Switzerland,2020,17.2,80037.50304,Europe
+Tajikistan,2020,2.5,802.5180041,Asia
+Thailand,2020,14.4,5978.611454,Asia
+Timor-Leste,2020,4.6,2053.273798,Asia
+Togo,2020,9.6,587.8744094,Africa
+Tonga,2020,3.5,3966.15652,Oceania
+Trinidad and Tobago,2020,13.6,15786.12052,North America
+Tunisia,2020,3.4,3698.565075,Africa
+Turkey,2020,7.3,10820.63384,Asia
+Turkmenistan,2020,6.7,6389.548408,Asia
+Uganda,2020,9.9,608.7057351,Africa
+Ukraine,2020,22.4,2187.731997,Europe
+United Arab Emirates,2020,2.8,38141.84676,Asia
+United Kingdom,2020,8.9,40539.91961,Europe
+United States of America,2020,15.3,57904.20196,North America
+Uruguay,2020,18.4,15387.14403,South America
+Uzbekistan,2020,7.4,2567.799418,Asia
+Vanuatu,2020,4.5,2830.965284,Oceania
+Zambia,2020,6.1,1280.578447,Africa
+Zimbabwe,2020,10.7,1464.583529,Africa

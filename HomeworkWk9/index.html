@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.25.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.14.1"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.22.2"></script>
+</head>
+<body>
+  <div id="vis"/>
+  <script>
+    const spec = {
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {"text": "Figure 1 : Global Suicide Rates (Per 100,000), 2000-2019"},
+  "width": 800,
+  "height": 400,
+  "params": [
+    {
+      "name": "Year_selection",
+      "value": 2000,
+      "bind": {
+        "input": "range",
+        "min": 2000,
+        "max": 2019,
+        "step": 1,
+        "name": "Year: "
+      }
+    }
+  ],
+  "layer": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/LiamBonato-Monash/FIT3179/Data-Visualisation-2/js/map_with_graticules.json",
+        "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+      },
+      "projection": {"type": "equalEarth"},
+      "transform": [
+        {
+          "calculate": "'Data is not available in ' + datum.properties.NAME",
+          "as": "note"
+        }
+      ],
+      "mark": {
+        "type": "geoshape",
+        "fill": "#f1f1f1",
+        "stroke": "black",
+        "strokeWidth": 0.5
+      },
+      "encoding": {"tooltip": {"field": "note"}}
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/7_others/oceans.topojson",
+        "format": {"type": "topojson", "feature": "oceans"}
+      },
+      "mark": {"type": "geoshape", "fill": "#e8f4f8"}
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/LiamBonato-Monash/FIT3179/Data-Visualisation-2/js/map_with_graticules.json",
+        "format": {"type": "topojson", "feature": "ne_110m_graticules_30"}
+      },
+      "mark": {"type": "geoshape", "fill": null, "stroke": "lightgray"}
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/LiamBonato-Monash/FIT3179/Data-Visualisation-2/datasets/SuicideAndGDPRatesPerCountry.csv"
+      },
+      "transform": [
+        {
+          "lookup": "country",
+          "from": {
+            "data": {
+              "url": "https://raw.githubusercontent.com/LiamBonato-Monash/FIT3179/Data-Visualisation-2/js/map_with_graticules.json",
+              "format": {
+                "type": "topojson",
+                "feature": "ne_110m_admin_0_countries"
+              }
+            },
+            "key": "properties.NAME"
+          },
+          "as": "geo"
+        },
+        {"filter": "datum.year == Year_selection"}
+      ],
+      "mark": {
+        "type": "geoshape",
+        "stroke": "black",
+        "strokeWidth": 0.5,
+        "strokeOpacity": 0.5
+      },
+      "encoding": {
+        "shape": {"field": "geo", "type": "geojson"},
+        "color": {
+          "field": "suicide_rate",
+          "title": "Suicide Rate (Per 100,000)",
+          "type": "quantitative",
+          "scale": {
+            "type": "threshold",
+            "domain": [5, 10, 20, 30, 50],
+            "range": [
+              "#f2f0f7",
+              "#dadaeb",
+              "#bcbddc",
+              "#9e9ac8",
+              "#756bb1",
+              "#54278f"
+            ]
+          }
+        },
+        "tooltip": [
+          {"field": "country", "type": "nominal", "title": "Country"},
+          {
+            "field": "suicide_rate",
+            "type": "quantitative",
+            "title": "Suicide Rate (Per 100,000)"
+          },
+          {
+            "field": "GDP",
+            "type": "quantitative",
+            "title": "GDP Per Capita",
+            "format": ",.2r"
+          }
+        ]
+      },
+      "config": {}
+    }
+  ],
+  "config": {}
+};
+    vegaEmbed("#vis", spec, {mode: "vega-lite"}).then(console.log).catch(console.warn);
+  </script>
+</body>
+</html>

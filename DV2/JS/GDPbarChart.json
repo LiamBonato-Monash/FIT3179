@@ -1,0 +1,41 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 325, "height": 200,
+  "data": {
+    "url": "https://raw.githubusercontent.com/LiamBonato-Monash/FIT3179/Data-Visualisation-2/datasets/gdp_data.csv"
+  },
+  "transform": [
+    {"filter": {"field": "year", "equal": 2019}},
+    {"filter": {"field": "GDP_per_capita_USD", "valid": true}}
+  ],
+  "mark": "bar",
+  "encoding": {
+    "y": {"field": "continent", "title": "Continent"},
+    "x": {
+      "aggregate": "mean",
+      "field": "GDP_per_capita_USD",
+      "type": "quantitative",
+      "sort": "ascending",
+      "title": "GDP per Capita ($USD)"
+    },
+    "color": {
+      "field": "continent",
+      "scale": {
+        "type": "ordinal",
+        "range": [
+          "#512888",
+          "#9532AA",
+          "#FFB200",
+          "#FFE72F",
+          "#0067D9",
+          "#0018A8"
+        ]
+      },
+      "legend": null
+    }
+  },
+  "config": {
+    "background":"#DFFFD6",
+    "font": "sulphur"
+  }
+}

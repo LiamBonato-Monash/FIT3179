@@ -1,0 +1,65 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/LiamBonato-Monash/FIT3179/Data-Visualisation-2/datasets/age_rates3.csv",
+    "format": {"type": "csv"}
+  },
+  "params": [
+    {
+      "name": "age",
+      "select": {"type": "point", "fields": ["age"]},
+      "bind": "legend"
+    }
+  ],
+  "transform": [
+    {"calculate": "datum.age", "as": "age_legend"},
+    {"filter": {"field": "suicide_rate", "valid": true}}
+  ],
+  "height": 340,
+  "width": 250,
+  "encoding": {
+    "y": {"field": "country", "type": "nominal", "title": "Country"},
+    "x": {
+      "aggregate": "mean",
+      "field": "suicide_rate",
+      "type": "quantitative",
+      "title": "Normalised Suicide Rate",
+      "stack": "normalize"
+    },
+    "color": {
+      "field": "age",
+      "title": "Age Order",
+      "type": "ordinal",
+      "scale": {
+        "range": [
+          "#edf8fb",
+          "#bfd3e6",
+          "#9ebcda",
+          "#8c96c6",
+          "#8856a7",
+          "#810f7c"
+        ]
+      },
+      "sort": {"field": "age_order"},
+      "legend": {
+        "title": "Age Group"
+      }
+    },
+    "order": {"field": "age_order"},
+    "opacity": {"condition": {"param": "age", "value": 1}, "value": 0.2},
+    "tooltip": [
+      {"field": "age", "title": "Age Group:"},
+      {
+        "aggregate": "mean",
+        "field": "suicide_rate",
+        "title": "Suicide Rate",
+        "format": ",.3r"
+      }
+    ]
+  },
+  "mark": "bar",
+  "config": {
+    "background":"#DFFFD6",
+    "font": "sulphur"
+  }
+}

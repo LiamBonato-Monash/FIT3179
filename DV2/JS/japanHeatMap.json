@@ -50,7 +50,8 @@
       }
     },
     "tooltip": [
-      {"field": "suicide_rate", "title": "Suicide Rate", "format": ",.2r"}
+      {"field": "suicide_rate", "title": "Suicide Rate", "format": ",.2r"},
+      {"field": "age", "title": "Age Group"}
     ]
   },
   "transform": [{"filter": {"field": "year", "lt": 2015}}]

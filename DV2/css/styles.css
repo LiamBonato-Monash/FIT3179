@@ -58,6 +58,7 @@ p {
 body {
     background-color: #DFFFD6;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 div {
@@ -80,7 +81,6 @@ h5 {
     margin: auto;
     padding: 50px;
     padding-top: 40px;
-    padding-bottom: 40px;
 }
 
 .vis-container {

@@ -73,7 +73,7 @@
       <div class="pure-u-1-2">
         <div class="description description-left">
           <p>
-            <b>The map above</b> shows a global perspective of suicide rates per 100,000 for the years 2000 to 2019. From this map we can see that North-Eastern Europe as well as southern African countries tends 
+            <b>The map above</b> shows a global perspective of suicide rates per 100,000 for the years 2000 to 2019. From this map we can see that North-Eastern Europe as well as southern African countries tend 
             to have consistently higher suicide rates. Australia, United States and the United Kingdom appear to fall in the average range and tend to have consistent rates throughout the years. 
           </p>
           <p>
@@ -85,7 +85,7 @@
           </p>
           <p>
             From both maps, it is <b>hard to make conclusive statements</b> about whether suicide rates are directly affected by geographical location, as <b>we cannot factor in all aspects of living</b>,
-            such as, common religions, quality of life and social stigma around mental illness. It is also important to note that certain countries have a lot less reported data on their 
+            such as, common religions, quality of life and social stigma around mental illness. It is also important to note that certain countries have significantly less reported data on their 
             yearly suicide numbers and therefore there may be higher rates in these areas due to unaccounted for deaths.
           </p>
         </div>
@@ -143,7 +143,7 @@
               relationship between the two, but, what we can see is that, <b>countries with a below average GDP are more likely to have an above average suicide rate compared to countries with a higher GDP.</b>
             </p>
             <p>
-              <b>Hover</b> over data in <b> the stream graph</b> and <b>the scatter plot</b> to see more information about them, or <b>click</b> on continents in the legend to highlight the data from that continent.
+              <i><b>Hover</b> over data in <b> the stream graph</b> and <b>the scatter plot</b> to see more information about them, or <b>click</b> on continents in the legend to highlight the data from that continent.</i>
             </p>
           </div>
         </div>
@@ -182,7 +182,7 @@
         </div>
         <div class="pure-g">
           <div class="pure-u-1-2">
-            <p><b>Select one</b> of the 15 countries from above to see <b>how sex affects the suicide rate</b> around the world.
+            <p><i><b>Select one</b> of the 15 countries from above to see <b>how sex affects the suicide rate</b> around the world.</i>
               From <b>this dot plot</b>, across all countries we can see that the <b>suicide rates of <font color="#F79D84">males</font> exceeds that of <font color="#5B4E77">females</font></b> in every year.
             </p>
           </div>
@@ -207,14 +207,16 @@
               amongst 75+ age group in Italy, Singapore and Uruguay.
             </p>
             <p>
-              There is no worldwide consistency in terms of age affecting suicide rates as we saw with sex, however
-              if we look at some countries across their available data we can see that in individual countries there does seem to be some trend of age affecting 
-              the rates. As we see in <b style="color:coral">France</b>, older generations typically have higher rates, where as in <b style="color:cornflowerblue">Australia</b>
-              25-54 has higher rates consistently.
+              <i><b>Click</b> on an age group in the legend to highlight it on the chart.</i>
             </p>
             <p>
-              <b>Click</b> on an age group in the legend to highlight it on the chart.
+              Below we can see the variations across the years from different countries. In some countries such as the United States we see very consistent rates across the years,
+              and some countries such as South Africa we see lots of variation year to year.
             </p>
+            <p>
+              <i><b>Click and drag over</b> the short graph to highlight certain time periods on the bigger graph and <b>Select a Country</b> from the dropdown box.</i>
+            </p>
+            
           </div>
           <div class="pure-u-1-2">
             <h3>Mean Suicide Rate across Age Groups, 1985-2020</h3>
@@ -222,6 +224,27 @@
           </div>
         </div>
       </div>
+      <h3>Suicide Rates by Gender over the year, 1985-2020</h3>
+      <div id="vis12" class="vis-container"></div>
+        <div id="slider-container">
+          <label for="country-select2"><b>Country:</b> </label><p></p>
+          <select id="country-select2">
+            <option value="Australia">Australia</option>
+            <option value="Belgium">Belgium</option>
+            <option value="Italy">Italy</option>
+            <option value="New Zealand">New Zealand</option>
+            <option value="Norway">Norway</option>
+            <option value="Russian Federation">Russian Federation</option>
+            <option value="Singapore">Singapore</option>
+            <option value="South Africa">South Africa</option>
+            <option value="Sri Lanka">Sri Lanka</option>
+            <option value="Sweden">Sweden</option>
+            <option value="United Kingdom">United Kingdom</option>
+            <option value="United States">United States</option>
+            <option value="Uruguay">Uruguay</option>
+            <option value="Uzbekistan">Uzbekistan</option>
+          </select>
+        </div>
       <div>
         <h3>
           Heatmaps of Australia, France, Russia and The United States
@@ -243,7 +266,22 @@
           </div>
         </div>
         <div>
-          
+        
+        </div>
+        <div class="pure-g">
+          <div class="pure-u-1-2">
+            <p>
+              Above we can see <b>Heat Maps</b> of particular countries in order to see trends of suicide rates amongst age groups across the time period.
+              There is no worldwide consistency in terms of age affecting suicide rates as we saw with sex.
+            </p>
+          </div>
+          <div class="pure-u-1-2">
+            <p>
+              However, if we look at some countries across their available data we can see that there does seem to be some trend of age affecting 
+              the rates. As we see in <b style="color:coral">France</b>, older generations typically have higher rates, whereas in <b style="color:cornflowerblue">Australia</b>
+              the 25-54 age range has higher rates consistently.
+            </p>
+          </div>
         </div>
         
       </div>
@@ -263,6 +301,7 @@
     var specVis9 = "./JS/GDPbarChart.json";
     var specVis10 = "./JS/continentalMap.json";
     var specVis11 = "./JS/stackedBarAge.json";
+    var specVis12 = "./JS/StackedAgeBrush.json";
 
     //vegaEmbed("#vis1", specVis1).then(() => {
   // Set an initial value for the slider
@@ -356,6 +395,17 @@
       continent.addEventListener("input", function () {
         const selectedCenter = JSON.parse(this.value);
         view.signal("center_to", selectedCenter).runAsync();
+
+      })
+    }).catch(console.error);
+
+    vegaEmbed("#vis12", specVis12).then((result) => {
+      const view = result.view;
+      // Add event listener for the slider
+      const country = document.getElementById("country-select2");
+      country.addEventListener("input", function () {
+        const selectedCountry = this.value;
+        view.signal("country_select", selectedCountry).runAsync();
 
       })
     }).catch(console.error);

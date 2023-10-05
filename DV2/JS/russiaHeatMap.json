@@ -6,7 +6,7 @@
     "url": "https://raw.githubusercontent.com/LiamBonato-Monash/FIT3179/Data-Visualisation-2/datasets/RussiaData.csv"
   },
   "title": {"text": "Russia", "orient": "top"},
-  "config": {"font": "sulphur","background":"#DFFFD6","view": {"strokeWidth": 0, "step": 13}, "axis": {"domain": false}},
+  "config": {"font": "sulphur","background":"#f8f8f8","view": {"strokeWidth": 0, "step": 13}, "axis": {"domain": false}},
   "mark": "rect",
   "encoding": {
     "x": {
@@ -54,8 +54,8 @@
       }
     },
     "tooltip": [
-      {"field": "suicide_rate", "title": "Suicide Rate", "format": ",.2r"},
-      {"field": "age", "title": "Age Group"}
+      {"field": "age", "title": "Age Group"},
+        {"field": "suicide_rate", "title": "Suicide Rate", "format": ",.2r"}
     ]
   },
   "transform": [{"filter": {"field": "year", "lt": 2015}}]

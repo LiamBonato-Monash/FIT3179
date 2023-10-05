@@ -50,14 +50,14 @@
           }
       },
       "tooltip":[
-        {"field": "suicide_rate", "title": "Suicide Rate", "format": ",.2r"},
-        {"field": "age", "title": "Age Group"}
+        {"field": "age", "title": "Age Group"},
+        {"field": "suicide_rate", "title": "Suicide Rate", "format": ",.2r"}
       ]
       
   },
   "transform": [{"filter": {"field": "year", "lt": 2017 }}],
   "config": {
-    "background":"#DFFFD6",
+    "background":"#f8f8f8",
     "font": "sulphur",
       "view": {
           "strokeWidth": 0,

@@ -27,7 +27,7 @@
     "color": {
       "field":"continent",
       "scale": {"type": "ordinal",
-      "range": ["#512888", "#9532AA", "#FFB200", "#FFE72F", "#0067D9", "#0018A8"]
+      "range": ["#6a42a1", "#ba4dd1", "#fac64d", "#ffee6e", "#318ff7", "#1b39f2"]
 
       },
       "legend":{
@@ -45,6 +45,6 @@
     },
     "config": {
       "font": "sulphur",
-      "background":"#DFFFD6"
+      "background":"#f8f8f8"
     }
   }

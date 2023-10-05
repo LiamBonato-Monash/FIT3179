@@ -1,0 +1,106 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/LiamBonato-Monash/FIT3179/Data-Visualisation-2/datasets/age_rates3.csv"
+  },
+  "params": [
+    {
+      "name": "country_select",
+      "value": "Australia"
+    }
+  ],
+  "vconcat": [
+    {
+      "width": 800,
+      "mark": "area",
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "temporal",
+          "scale": {"domain": {"param": "brush"}},
+          "axis": {"title": ""}
+        },
+        "y": {
+          "field": "suicide_rate",
+          "type": "quantitative",
+          "title": "Suicide Rate"
+        },
+        "color": {
+          "field": "age",
+          "title": "Age Order",
+          "type": "ordinal",
+          "scale": {
+            "range": [
+              "#edf8fb",
+              "#bfd3e6",
+              "#9ebcda",
+              "#8c96c6",
+              "#8856a7",
+              "#810f7c"
+            ]
+          },
+          "sort": {"field": "age_order"},
+          "legend": {"title": "Age Group"}
+        },
+        "order": {"field": "age_order"},
+        "tooltip": [
+          {"field": "age", "title": "Age Group:"},
+          {
+            "aggregate": "mean",
+            "field": "suicide_rate",
+            "title": "Suicide Rate",
+            "format": ",.3r"
+          }
+        ]
+      },
+      "transform": [{"filter": "datum.country == country_select"}]
+    },
+    {
+      "width": 800,
+      "height": 60,
+      "mark": "area",
+      "params": [
+        {"name": "brush", "select": {"type": "interval", "encodings": ["x"]}}
+      ],
+      "encoding": {
+        "x": {"field": "year", "type": "temporal"},
+        "y": {
+          "field": "suicide_rate",
+          "type": "quantitative",
+          "axis": {"tickCount": 3, "grid": false},
+          "title": "Suicide Rate"
+        },
+        "color": {
+          "field": "age",
+          "title": "",
+          "type": "ordinal",
+          "scale": {
+            "range": [
+              "#edf8fb",
+              "#bfd3e6",
+              "#9ebcda",
+              "#8c96c6",
+              "#8856a7",
+              "#810f7c"
+            ]
+          }
+        },
+        "order": {"field": "age_order"},
+        "tooltip": [
+          {"field": "age", "title": "Age Group:"},
+          {
+            "aggregate": "mean",
+            "field": "suicide_rate",
+            "title": "Suicide Rate",
+            "format": ",.3r"
+          }
+        ]
+      },
+      "transform": [{"filter": "datum.country == country_select"}]
+    }
+  ],
+  "config": {
+    "background":"#f8f8f8",
+    "font": "sulphur"
+  }
+}

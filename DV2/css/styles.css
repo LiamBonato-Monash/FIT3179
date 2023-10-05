@@ -57,6 +57,7 @@ p {
 
 body {
     background-color: #DFFFD6;
+    margin-top: 20px;
 }
 
 div {
@@ -73,7 +74,9 @@ h5 {
 
 .page {
     width: 900px;
-    background-color: #DFFFD6;
+    background-color: #f8f8f8;
+    border-radius: 30px;
+    border-color: #474747;
     margin: auto;
     padding: 50px;
     padding-top: 35px;
@@ -281,6 +284,41 @@ h1 {
 }
 
 #country-select .dropdown-menu li {
+    padding: 10px;
+    transition: all .2s ease-in-out;
+    cursor: pointer
+} 
+
+#country-select2 {
+    width: 300px;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 0 2px rgb(204, 204, 204);
+    transition: all .5s ease;
+    position: relative;
+    font-size: 14px;
+    color: #474747;
+    height: 100%;
+    text-align: left
+}
+
+#country-select2 .select {
+    cursor: pointer;
+    display: block;
+    padding: 10px
+}
+
+#country-select2 .select > i {
+    font-size: 13px;
+    color: #888;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    float: right;
+    line-height: 20px
+}
+
+#country-select2 .dropdown-menu li {
     padding: 10px;
     transition: all .2s ease-in-out;
     cursor: pointer

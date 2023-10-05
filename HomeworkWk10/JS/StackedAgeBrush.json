@@ -47,7 +47,7 @@
           {"field": "age", "title": "Age Group"},
           {
             "field": "suicide_rate",
-            "title": "Suicide Rate",
+            "title": "Suicide Rate (Per 100,000)",
             "format": ",.3r"
           }
         ]

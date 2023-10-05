@@ -35,7 +35,11 @@
         "legend":{
           "title": "Sex"
         }
-      }
+      },
+      "tooltip": [
+        {"field": "sex", "title": "Sex"},
+        {"field": "suicide_rate", "title": "Suicide Rate", "format": ",.2r"}
+      ]
       },
       "transform": [{"filter": "datum.country == country_selection"},
       {"filter": {"field": "suicide_rate", "gt": 0 }}]

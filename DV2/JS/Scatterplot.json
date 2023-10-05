@@ -1,18 +1,28 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": 300,
-  "height": 400,
+  "height": 425,
   "data": {
     "url": "https://raw.githubusercontent.com/LiamBonato-Monash/FIT3179/Data-Visualisation-2/datasets/rate_vs_gdp_with_cont.csv"
   },
   "layer": [
     {
-      "mark": "point",
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "opacity": 0.8,
+        "size": 40
+      },
       "params": [
         {
             "name": "selection",
             "select": {"type": "point", "fields": ["continent"]},
             "bind": "legend"
+        },
+        {
+          "name": "grid",
+          "select": "interval",
+          "bind": "scales"
         }
       ],
       "encoding": {

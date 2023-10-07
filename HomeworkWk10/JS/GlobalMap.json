@@ -101,7 +101,7 @@
           {
             "field": "suicide_rate",
             "type": "quantitative",
-            "title": "Suicide Rate (Per 100,000)"
+            "title": "Suicide Rate"
           },
           {
             "field": "GDP",

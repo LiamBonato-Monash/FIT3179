@@ -53,14 +53,10 @@
             <option value="Uzbekistan">Uzbekistan</option>
           </select>
         </div>
+        <p><b>Select a continent</b> on the legend to highlight those countries, <b>Use your mouse</b> to zoom and pan around the plot,<b> double click</b> to return to the whole view</p>
         <div>
             <h3>Global Suicide Rates, 2000-2019</h3>
             <div id="vis1" class="vis-container"></div>
-          </div>
-          <div id="slider-container">
-            <p><b>Year:</b></p>
-            <input type="range" id="year-slider" min="2000" max="2019" step="1" value="2000">
-            <span id="slider-value">2000</span>
           </div>
         </div>
     </div>
@@ -73,7 +69,7 @@
 
   <script type="text/javascript">
     var specVis1 = "JS/GlobalMap.json";
-    var specVis12 = "JS/StackedAgeBrush.json";
+    var specVis12 = "JS/Scatterplot.json";
 
     vegaEmbed("#vis1", specVis1).then((result) => {
       const view = result.view;

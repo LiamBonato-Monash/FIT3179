@@ -1,11 +1,18 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 870,
-  "height": 420,
+  "width": 700,
+  "height": 400,
   "params": [
     {
       "name": "Year_selection",
-      "value": 2000
+      "value": 2000,
+      "bind": {
+        "input": "range",
+        "min": 2000,
+        "max": 2019,
+        "step": 1,
+        "name": "Year: "
+      }
     }
   ],
   "layer": [
@@ -23,19 +30,18 @@
       ],
       "mark": {
         "type": "geoshape",
-        "fill": "lightgray",
+        "fill": "#f1f1f1",
         "stroke": "black",
-        "strokeWidth": 0.5,
-        "strokeOpacity": 0.5
+        "strokeWidth": 0.5
       },
       "encoding": {"tooltip": {"field": "note"}}
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/LiamBonato-Monash/FIT3179/Data-Visualisation-2/js/oceans.topojson",
+        "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/7_others/oceans.topojson",
         "format": {"type": "topojson", "feature": "oceans"}
       },
-      "mark": {"type": "geoshape", "fill": "#dff8ff"}
+      "mark": {"type": "geoshape", "fill": "#e8f4f8"}
     },
     {
       "data": {
@@ -81,20 +87,14 @@
             "type": "threshold",
             "domain": [5, 10, 20, 30, 50],
             "range": [
-              "#fef0d9",
-              "#fdd49e",
-              "#fdbb84",
-              "#fc8d59",
-              "#e34a33",
-              "#b30000"
+              "#f2f0f7",
+              "#dadaeb",
+              "#bcbddc",
+              "#9e9ac8",
+              "#756bb1",
+              "#54278f"
             ]
-          },
-          "legend": {"orient": "bottom-left", 
-                      "direction": "horizontal", 
-                      "strokeColor": "black",
-                      "fillColor": "white",
-                      "padding": 3
-                      }
+          }
         },
         "tooltip": [
           {"field": "country", "type": "nominal", "title": "Country"},
@@ -106,16 +106,15 @@
           {
             "field": "GDP",
             "type": "quantitative",
-            "title": "GDP Per Capita ($USD)",
+            "title": "GDP Per Capita",
             "format": ",.2r"
           }
-          
         ]
-      }
+      },
+      "config": {}
     }
   ],
   "config": {
-    "font": "sulphur",
-    "background":"#f8f8f8"
+    "background": "#f8f8f8"
   }
 }

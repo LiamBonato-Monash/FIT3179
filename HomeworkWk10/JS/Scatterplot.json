@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 300,
+  "width": 800,
   "height": 425,
   "data": {
     "url": "https://raw.githubusercontent.com/LiamBonato-Monash/FIT3179/Data-Visualisation-2/datasets/rate_vs_gdp_with_cont.csv"
@@ -26,8 +26,8 @@
         }
       ],
       "encoding": {
-        "x": {"field": "gdp", "type": "quantitative"},
-        "y": {"field": "suicide_rate", "type": "quantitative"},
+        "x": {"field": "gdp", "type": "quantitative", "title": "GDP Per Capita ($USD)"},
+        "y": {"field": "suicide_rate", "type": "quantitative", "title": "Suicide Rate (Per 100,000)"},
         "color": {
           "field": "continent",
           "scale": {
@@ -54,34 +54,6 @@
       }
     },
     {
-      "mark": {
-        "type": "rule",
-        "strokeDash": [6,4]
-      },
-      "encoding": {
-        "y": {
-          "field": "suicide_rate",
-          "type": "quantitative",
-          "aggregate": "mean",
-          "title": "Suicide Rate"
-        }
-      }
-    },
-    {
-      "mark": {
-        "type": "rule",
-        "strokeDash": [6,4]
-      },
-      "encoding": {
-        "x": {
-          "field": "gdp",
-          "type": "quantitative",
-          "aggregate": "mean",
-          "title": "GDP Per Capita ($USD)"
-        }
-      }
-    },
-    {
       "mark":{
         "type": "text",
         "align": "left",
@@ -96,11 +68,7 @@
         "x": {"field": "gdp", "type": "quantitative"},
         "y": {"field": "suicide_rate", "type": "quantitative"},
         "color": {
-          "field": "continent",
-          "scale": {
-            "type": "ordinal",
-            "range": ["#6a42a1", "#ba4dd1", "#fac64d", "#ffee6e", "#318ff7", "#1b39f2"]
-          }},
+          "value": "black"},
       "opacity": {
           "condition": {
             "test": " datum['country'] == 'Australia' || datum['country'] == 'Sri Lanka'|| datum['country'] == 'France'|| datum['country'] == 'Singapore'",

@@ -22,7 +22,7 @@
       "field": "continent",
       "scale": {
         "type": "ordinal",
-        "range": ["#6a42a1", "#ba4dd1", "#fac64d", "#ffee6e", "#318ff7", "#1b39f2"]
+        "range": ["#808080", "#808080", "#fac64d", "#808080", "#808080", "#808080"]
       },
       "legend": null
     }

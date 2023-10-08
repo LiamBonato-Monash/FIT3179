@@ -67,6 +67,7 @@ p {
 }
 
 body {
+    background-image: url("greenPattern.jpg");
     background-color: #DFFFD6;
     margin-top: 20px;
     margin-bottom: 20px;

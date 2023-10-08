@@ -63,7 +63,7 @@
         {"name": "brush", "select": {"type": "interval", "encodings": ["x"]}}
       ],
       "encoding": {
-        "x": {"field": "year", "type": "temporal"},
+        "x": {"field": "year", "type": "temporal", "title": "Year"},
         "y": {
           "field": "sum_suicide_rate",
           "type": "quantitative",

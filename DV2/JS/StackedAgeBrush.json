@@ -11,7 +11,7 @@
   ],
   "vconcat": [
     {
-      "width": 800,
+      "width": 825,
       "mark": "area",
       "encoding": {
         "x": {
@@ -31,16 +31,17 @@
           "type": "ordinal",
           "scale": {
             "range": [
-              "#edf8fb",
-              "#bfd3e6",
-              "#9ebcda",
-              "#8c96c6",
-              "#8856a7",
-              "#810f7c"
+              "#ffffcc",
+              "#d9f0a3",
+              "#addd8e",
+              "#78c679",
+              "#31a354",
+              "#006837"
             ]
           },
           "sort": {"field": "age_order"},
-          "legend": {"title": "Age Group"}
+          "legend": {"title": "Age Group",
+          "orient": "bottom"}
         },
         "order": {"field": "age_order"},
         "tooltip": [
@@ -56,7 +57,7 @@
     },
     {
       "title":{"text":"Use this Line Chart to Filter out the data based on time"},
-      "width": 800,
+      "width": 825,
       "height": 60,
       "mark": "line",
       "params": [
@@ -71,7 +72,7 @@
           "title": "Suicide Rate"
         },
         "color":{
-          "value": "#810f7c"
+          "value": "#006837"
         }
       },
       "transform": [{"filter": "datum.country == country_select"},

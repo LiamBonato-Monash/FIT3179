@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>FIT3179 Data Visualisation 2</title>
+  <title>Worldwide Suicide Rates</title>
   <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
   <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
@@ -29,7 +29,7 @@
   <div class="page">
 
     <!-- pure grid group -->
-    <h1>What Affects Worldwide Suicide Rates</h1>
+    <h1>Worldwide Suicide Rates, 1985-2020</h1>
     <p>By Liam Bonato 30584744</p>
     <hr>
     <!-- end pure grid group -->
@@ -53,8 +53,8 @@
       <div>
         <div class="description description-left">
           <h2>Geographical Location</h2>
-          <hr>
         </div>
+        <hr>
       </div>
       <div>
         <h3>Global Suicide Rates, 2000-2019</h3>
@@ -135,7 +135,7 @@
         
         <div class="pure-u-1-2">
           <br>
-          <h3>Average Suicide Rate Vs GDP per Capita, 1985-2020</h3>
+          <h3>Suicide Rate Vs GDP per Capita, 1985-2020</h3>
           <div id="vis3" class="vis-container"></div>
         </div>
         <div class="pure-u-1-2">
@@ -158,7 +158,7 @@
       </div>
     </div>
     <div>
-      <h2>How Does Biological Sex Affect Suicide Rates?</h2>
+      <h2>Biological Sex</h2>
       <hr>
       <div>
         <h3>Biological Sex Comparison of Suicide Rates, 1985-2020</h3>
@@ -205,7 +205,7 @@
       </div>
     </div>
     <div>
-      <h2>How Does Age Affect Suicide Rates?</h2>
+      <h2>Age Groups</h2>
       <hr>
       <div>
         <div class="pure-g">
@@ -228,7 +228,7 @@
             
           </div>
           <div class="pure-u-1-2">
-            <h3>Mean Suicide Rate across Age Groups, 1985-2020</h3>
+            <h3>Suicide Rate across Age Groups, 1985-2020</h3>
             <div id="vis11" class="vis-container"></div>
           </div>
         </div>
@@ -256,14 +256,15 @@
         </div>
       <div>
         <h3>
-          Heatmaps of Australia, France, Russia and The United States
+          Heatmaps of Australia, France, Russia and The United States, 1985-2015
         </h3>
+        <br>
         <div class="pure-g">
           <div class="pure-u-1-2">
             <div id="vis5" class="vis-container"></div>
           </div>
           <div class="pure-u-1-2">
-            <div id="vis6" class="vis-container"></div>
+            <div id="vis6" class="vis-container-right"></div>
           </div>
         </div>
         <div class="pure-g">
@@ -271,7 +272,7 @@
             <div id="vis7" class="vis-container"></div>
           </div>
           <div class="pure-u-1-2">
-            <div id="vis8" class="vis-container"></div>
+            <div id="vis8" class="vis-container-right"></div>
           </div>
         </div>
         <div>
@@ -357,7 +358,7 @@
     }).catch(console.error);
 
 
-    vegaEmbed("#vis1", specVis1).then((result) => {
+    vegaEmbed("#vis1", specVis1,{ "actions": false }).then((result) => {
       const view = result.view;
 
       // Add event listener for the slider
@@ -370,7 +371,7 @@
       });
     }).catch(console.error);
 
-    vegaEmbed("#vis4", specVis4).then((result) => {
+    vegaEmbed("#vis4", specVis4,{ "actions": false }).then((result) => {
       const view = result.view;
       // Add event listener for the slider
       const country = document.getElementById("country-select");
@@ -381,7 +382,7 @@
       })
     }).catch(console.error);
 
-    vegaEmbed("#vis10", specVis10).then((result) => {
+    vegaEmbed("#vis10", specVis10,{ "actions": false }).then((result) => {
       const view = result.view;
 
       // Add event listener for the slider
@@ -408,7 +409,7 @@
       })
     }).catch(console.error);
 
-    vegaEmbed("#vis12", specVis12).then((result) => {
+    vegaEmbed("#vis12", specVis12,{ "actions": false }).then((result) => {
       const view = result.view;
       // Add event listener for the slider
       const country = document.getElementById("country-select2");

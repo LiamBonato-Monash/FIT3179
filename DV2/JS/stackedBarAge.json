@@ -15,16 +15,16 @@
     {"calculate": "datum.age", "as": "age_legend"},
     {"filter": {"field": "suicide_rate", "valid": true}}
   ],
-  "height": 380,
+  "height": 410,
   "width": 250,
   "encoding": {
     "y": {"field": "country", "type": "nominal", "title": "Country"},
     "x": {
       "aggregate": "mean",
       "field": "suicide_rate",
-      "type": "quantitative",
       "title": "Normalised Suicide Rate",
-      "stack": "normalize"
+      "stack": "normalize",
+      "axis":{"format": "%"}
     },
     "color": {
       "field": "age",
@@ -32,12 +32,12 @@
       "type": "ordinal",
       "scale": {
         "range": [
-          "#edf8fb",
-          "#bfd3e6",
-          "#9ebcda",
-          "#8c96c6",
-          "#8856a7",
-          "#810f7c"
+          "#ffffcc",
+          "#d9f0a3",
+          "#addd8e",
+          "#78c679",
+          "#31a354",
+          "#006837"
         ]
       },
       "sort": {"field": "age_order"},

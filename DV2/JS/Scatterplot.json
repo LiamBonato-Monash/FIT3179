@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 300,
-  "height": 425,
+  "width": 375,
+  "height": 460,
   "data": {
     "url": "https://raw.githubusercontent.com/LiamBonato-Monash/FIT3179/Data-Visualisation-2/datasets/rate_vs_gdp_with_cont.csv"
   },
@@ -26,17 +26,17 @@
         }
       ],
       "encoding": {
-        "x": {"field": "gdp", "type": "quantitative"},
-        "y": {"field": "suicide_rate", "type": "quantitative"},
+        "x": {"field": "gdp", "type": "quantitative","axis":{"tickMinStep": 15000},"scale":{"domainMax":85000}},
+        "y": {"field": "suicide_rate", "type": "quantitative", "axis": {"tickMinStep": 5}},
         "color": {
           "field": "continent",
           "scale": {
             "type": "ordinal",
             "range": ["#6a42a1", "#ba4dd1", "#fac64d", "#ffee6e", "#318ff7", "#1b39f2"]
           },
-          "legend": {"title": "Continents"}
+          "legend": {"title": "Continents","orient": "top"}
         },
-        "opacity": {"condition": {"param": "selection", "value": 1}, "value": 0.2},
+        "opacity": {"condition": {"param": "selection", "value": 1}, "value": 0.1},
         "tooltip": [
           {"field": "country", "title": "Country"},
           {"field": "continent", "title": "Continent"},
@@ -84,7 +84,7 @@
     {
       "mark":{
         "type": "text",
-        "align": "left",
+        "align": "left",  
         "baseline": "middle",
         "dx": 6,
         "fontSize": 13,
@@ -103,7 +103,7 @@
           }},
       "opacity": {
           "condition": {
-            "test": " datum['country'] == 'Australia' || datum['country'] == 'Chile'|| datum['country'] == 'Sri Lanka'|| datum['country'] == 'France'|| datum['country'] == 'Singapore'",
+            "test": " datum['country'] == 'Australia' || datum['country'] == 'San Marino'|| datum['country'] == 'Qatar'|| datum['country'] == 'Chile'|| datum['country'] == 'Sri Lanka'|| datum['country'] == 'France'|| datum['country'] == 'Singapore'",
             "value": 1
           },
           "value": 0

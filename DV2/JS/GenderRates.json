@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 800,
+  "width": 825,
   "height": 250,
   "data": {"url": "https://raw.githubusercontent.com/LiamBonato-Monash/FIT3179/Data-Visualisation-2/datasets/gender_rates.csv"},
   "params": [
@@ -33,7 +33,8 @@
           "range": ["#5B4E77 ","#F79D84"]
         },
         "legend":{
-          "title": "Sex"
+          "title": "Sex",
+          "orient": "bottom"
         }
       },
       "tooltip": [

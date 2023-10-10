@@ -15,7 +15,7 @@
     {"calculate": "datum.age", "as": "age_legend"},
     {"filter": {"field": "suicide_rate", "valid": true}}
   ],
-  "height": 410,
+  "height": 450,
   "width": 250,
   "encoding": {
     "y": {"field": "country", "type": "nominal", "title": "Country"},

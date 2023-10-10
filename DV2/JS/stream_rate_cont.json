@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 400, "height": 200,
+  "width": 405, "height": 200,
   "data": {"url": "https://raw.githubusercontent.com/LiamBonato-Monash/FIT3179/Data-Visualisation-2/datasets/suicides_per_cont.csv"},
   "mark": "area",
   "params": [{

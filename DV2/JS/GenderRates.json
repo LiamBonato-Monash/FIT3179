@@ -27,8 +27,8 @@
         "size": 100,
         "opacity": 1},
       "encoding": {
-        "x": {"field": "year", "type": "ordinal", "timeUnit": "year", "title": "Year", "axis": {"labelAngle": 45}},
-        "y": {"field": "suicide_rate", "type": "quantitative", "title": "Suicide Rate"},
+        "x": {"field": "year", "type": "ordinal", "timeUnit": "year", "title": "Year", "axis": {"labelAngle": 45, "gridOpacity":0}},
+        "y": {"field": "suicide_rate", "type": "quantitative", "title": "Suicide Rate (per 100,000)", "axis":{"grid": false}},
         "color": {"field": "sex", "type": "nominal", "title": "Sex", "scale":{
           "range": ["#5B4E77 ","#F79D84"]
         },
@@ -48,6 +48,7 @@
   ],
   "config": {
     "font": "sulphur",
-    "background":"#f8f8f8"
+    "background":"#f8f8f8",
+    "style": {"cell": {"stroke": "transparent"}}
   }
 }

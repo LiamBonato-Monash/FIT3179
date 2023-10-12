@@ -57,6 +57,7 @@
   
   "config": {
     "background":"#f8f8f8",
-    "font": "sulphur"
+    "font": "sulphur",
+    "style": {"cell": {"stroke": "transparent"}}
   }
 }

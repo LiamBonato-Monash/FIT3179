@@ -16,14 +16,15 @@
           "title": "Year",
           "axis": {
               "labelAngle": 0,
-              "values": [1985, 1990, 1995, 2000, 2005, 2010, 2015]
+              "values": [1985, 1990, 1995, 2000, 2005, 2010, 2014],
+              "gridOpacity":0
           }
       },
       "y": {
           "field": "age",
           "type": "nominal",
           "sort": ["75+ years","55-74 years","35-54 years", "25-34 years", "15-24 years", "5-14 years"],
-          "axis": {"orient":"right", "tickOpacity":0, "labelPadding":25},
+          "axis": {"orient":"right", "tickOpacity":0, "labelPadding":25, "gridOpacity":0},
           "title": ""
       },
       "color": {
@@ -56,7 +57,7 @@
       ]
       
   },
-  "transform": [{"filter": {"field": "year", "lt": 2017 }}],
+  "transform": [{"filter": {"field": "year", "lt": 2015 }}],
   "config": {
     "background":"#f8f8f8",
     "font": "sulphur",

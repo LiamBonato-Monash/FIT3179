@@ -40,14 +40,20 @@
           equivalent to one death to suicide every 45 seconds. Suicide is the
           fourth leading cause of death amongst individuals aged 15-29.
         </p>
+        <p>In this visualisation, we will look at how global suicide rates are affected by <b>geographical location, Gross Domestic Profit per
+          Capita (GDP), sex and age</b> to see if there is any
+          trends across the data. All suicide rates will be <b>normalised to per 100,000 population.</b>
+        </p>
       </div>
     </div>
       <div class="pure-u-1-2">
         <div class="description-right">
-        <p>In this visualisation, we will look at how global suicide rates are affected by <b>geographical location, Gross Domestic Profit per
-          Capita (GDP), sex and age</b> to see if there is any
-          trends across the data. All suicide rates will be <b>normalised to per 100,000 population.</b> </p>
-      </div>
+          <p>👆 <b>Select a box to scroll to that section.</b></p>
+          <div class="box"><a href="#GeoLocate">Geographical Location</a></div><br>
+          <div class="box"><a href="#gdp">Gross Domestic Profit</a></div><br>
+          <div class="box"><a href="#sex">Biological Sex</a></div><br>
+          <div class="box"><a href="#age_groups">Age Groups</a></div><br>
+        </div>
     </div>
     </div>
     <!-- pure grid group -->
@@ -55,7 +61,7 @@
 
     <div>
       <div>
-        <div class="description description-left">
+        <div id="GeoLocate"class="description description-left">
           <h2>Geographical Location</h2>
         </div>
         <hr>
@@ -122,20 +128,22 @@
     </div>
 
     <!-- pure grid group -->
-    <h2>Gross Domestic Profit</h2>
-    <hr>
-    <div class="pure-g">
-      <div class="pure-u-1-2">
-        <div class="description description-left">
-          <h3>Mean GDP per Continent, 2019</h3>
-          <div id="vis9" class="vis-container"></div>
+    <div id="gdp">
+      <h2>Gross Domestic Profit</h2>
+      <hr>
+      <div class="pure-g">
+        <div class="pure-u-1-2">
+          <div class="description description-left">
+            <h3>Mean GDP per Continent, 2019</h3>
+            <div id="vis9" class="vis-container"></div>
+          </div>
         </div>
-      </div>
-      <div class="pure-u-1-2">
-        <div class="description-right">
-        <h3>Continental Suicide Rates, 1996-2020</h3>
-        <div id="vis2" class="vis-container"></div>
-      </div>
+        <div class="pure-u-1-2">
+          <div class="description-right">
+          <h3>Continental Suicide Rates, 1996-2020</h3>
+          <div id="vis2" class="vis-container"></div>
+        </div>
+        </div>
       </div>
     </div>
       <!-- end pure grid group -->
@@ -166,11 +174,11 @@
       </div>
     </div>
     
-    <div>
+    <div id="sex">
       <h2>Biological Sex</h2>
       <hr>
       <div>
-        <h3>Biological Sex Comparison of Suicide Rates, 1985-2020</h3>
+        <h3>Biological Sex Comparison of Suicide Rates, 1985-2020</h3><br>
         <div id="vis4" class="vis-container"></div>
         <div class="pure-g">
           <div class="pure-u-1-2">
@@ -215,7 +223,7 @@
         </div>
       </div>
     </div>
-    <div>
+    <div id="age_groups">
       <h2>Age Groups</h2>
       <hr>
       <div>
@@ -270,7 +278,7 @@
         </div>
       <div>
         <h3>
-          Heatmaps of Australia, France, Russia and The United States, 1985-2015
+          Heatmaps of Australia, France, Russia and The United States, 1985-2014
         </h3>
         <br>
         <div class="pure-g">
@@ -296,8 +304,8 @@
           <div class="pure-u-1-2">
             <div class="description-left">
             <p>
-              Above we can see <b>Heat Maps</b> of particular countries in order to see trends of suicide rates amongst age groups across the time period.
-              There is no worldwide consistency in terms of age affecting suicide rates as we saw with sex.
+              Above we can see <b>Heat Maps</b> of particular countries across different continents, in order to see trends of suicide rates amongst age groups throughout the time period.
+              We can see that there is no worldwide consistency in terms of age affecting suicide rates as we saw with sex.
             </p>
           </div>
           </div>
@@ -311,7 +319,6 @@
           </div>
           </div>
         </div>
-        
       </div>
     </div>
   </div> <!-- end page -->

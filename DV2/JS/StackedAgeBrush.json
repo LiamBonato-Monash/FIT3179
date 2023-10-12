@@ -18,12 +18,13 @@
           "field": "year",
           "type": "temporal",
           "scale": {"domain": {"param": "brush"}},
-          "axis": {"title": ""}
+          "axis": {"title": "", "gridOpacity":0}
         },
         "y": {
           "field": "suicide_rate",
           "type": "quantitative",
-          "title": "Suicide Rate"
+          "title": "Suicide Rate",
+          "axis": {"gridOpacity":0}
         },
         "color": {
           "field": "age",
@@ -48,7 +49,7 @@
           {"field": "age", "title": "Age Group"},
           {
             "field": "suicide_rate",
-            "title": "Suicide Rate",
+            "title": "Suicide Rate (per 100,000)",
             "format": ",.3r"
           }
         ]
@@ -64,7 +65,7 @@
         {"name": "brush", "select": {"type": "interval", "encodings": ["x"]}}
       ],
       "encoding": {
-        "x": {"field": "year", "type": "temporal", "title": "Year"},
+        "x": {"field": "year", "type": "temporal", "title": "Year","axis": {"gridOpacity":0}},
         "y": {
           "field": "sum_suicide_rate",
           "type": "quantitative",
@@ -88,6 +89,7 @@
   ],
   "config": {
     "background":"#f8f8f8",
-    "font": "sulphur"
+    "font": "sulphur",
+    "style": {"cell": {"stroke": "transparent"}}
   }
 }

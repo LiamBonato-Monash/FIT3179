@@ -63,7 +63,7 @@
           "field": "suicide_rate",
           "type": "quantitative",
           "aggregate": "mean",
-          "title": "Suicide Rate"
+          "title": "Suicide Rate (per 100,000)"
         }
       }
     },
